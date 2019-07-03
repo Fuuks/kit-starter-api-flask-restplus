@@ -7,7 +7,4 @@ class Person(Resource):
 		return 	pass
 
 	def get(self):
-
-		if 'user' not in request.cookies:
-			return 401
-		return request.cookies.get('user')
+		return pass
